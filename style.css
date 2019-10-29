@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #d86c94;
+}
+
+.filter {
+  background: #dfbe99;
+}
+
+main {
+}
+
+.box  {
+  background: #729ea1;
+}

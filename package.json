@@ -1,0 +1,23 @@
+{
+  "name": "around-spaces-css",
+  "version": "1.0.0",
+  "description": "CSS Version of around spaces",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel *.html",
+    "build": "parcel build *.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holgermanzke/Around-Spaces-CSS-Version.git"
+  },
+  "author": "Holger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/holgermanzke/Around-Spaces-CSS-Version/issues"
+  },
+  "homepage": "https://github.com/holgermanzke/Around-Spaces-CSS-Version#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
