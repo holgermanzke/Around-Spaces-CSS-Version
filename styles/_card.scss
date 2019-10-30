@@ -5,35 +5,56 @@
 }
 
 .card {
-  height: 200px;
   margin: 5px;
   width: 90%;
-  border: 1px solid black; //später raus
+  max-width: 550px;
+  height: 200px;
   border-radius: 10px;
   display: flex;
   flex-direction: row;
-  &__img {
+  &--img-wrapper {
     width: 25%;
-    border-radius: 10px 0 0 0;
-    // background: rebeccapurple;
+    overflow: hidden;
+  }
+  &__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    //   // flex-flow: wrap;
+    object-fit: cover;
+    object-position: top center;
   }
   &__content {
-    width: 75%;
-    background: peachpuff;
+    flex-grow: 1;
+    background: $secondary-color;
+    border-radius: 0 10px 10px 0;
     padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+
     &__title {
       font-size: 1.5rem;
       font-weight: bold;
+      margin-top: 5px;
+    }
+    &--badge-wrapper {
+      display: flex;
+      flex-direction: row;
     }
     &__badge {
       background: $primary-color;
       color: $secondary-color;
+      width: fit-content;
       display: inline-block;
       padding: 3px 9px;
       border-radius: 5px;
+      margin: 10px 0 0 10px;
     }
     &__info {
-      font-size: 10px;
+      font-size: 15px;
+      margin-top: auto;
+      margin-bottom: 5px;
+      font-weight: bold;
     }
   }
 }
