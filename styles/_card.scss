@@ -1,7 +1,39 @@
-.badge {
-  background: $primary-color;
-  color: $secondary-color;
-  display: inline-block;
-  padding: 3px 9px;
-  border-radius: 5px;
+.card-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  height: 200px;
+  margin: 5px;
+  width: 90%;
+  border: 1px solid black; //später raus
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  &__img {
+    width: 25%;
+    border-radius: 10px 0 0 0;
+    // background: rebeccapurple;
+  }
+  &__content {
+    width: 75%;
+    background: peachpuff;
+    padding-left: 15px;
+    &__title {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    &__badge {
+      background: $primary-color;
+      color: $secondary-color;
+      display: inline-block;
+      padding: 3px 9px;
+      border-radius: 5px;
+    }
+    &__info {
+      font-size: 10px;
+    }
+  }
 }
