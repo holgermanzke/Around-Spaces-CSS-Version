@@ -21,3 +21,7 @@ Build for production
 ```
 npm run build
 ```
+
+## Author
+
+Holger Manzke
