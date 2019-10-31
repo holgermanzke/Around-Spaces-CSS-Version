@@ -15,3 +15,9 @@ Start developer Server
 ```
 npm run dev
 ```
+
+Build for production
+
+```
+npm run build
+```
